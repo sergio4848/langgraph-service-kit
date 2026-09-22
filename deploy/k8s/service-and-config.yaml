@@ -1,0 +1,45 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: agent-service-config
+data:
+  AGENT_BACKEND: "openai"
+  AGENT_OPENAI_MODEL: "gpt-4.1-mini"
+  AGENT_CLARIFY_THRESHOLD: "0.6"
+  AGENT_LOG_LEVEL: "INFO"
+---
+# Create the secret out of band, never commit it:
+#   kubectl create secret generic agent-service-secrets --from-literal=OPENAI_API_KEY=sk-...
+apiVersion: v1
+kind: Service
+metadata:
+  name: agent-service
+  labels:
+    app.kubernetes.io/name: agent-service
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: agent-service
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: agent-service
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: agent-service
+  minReplicas: 2
+  maxReplicas: 6
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70

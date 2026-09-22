@@ -1,0 +1,24 @@
+{"id": "e01", "text": "Someone broke into our flat last night and stole my laptop and camera. The police report number is 2026-778812. How do I claim on my contents insurance?", "category": "claim", "urgency": "medium"}
+{"id": "e02", "text": "Water is still leaking from the ceiling into the kitchen right now, I need someone today. Policy HM-4471920.", "category": "claim", "urgency": "high"}
+{"id": "e03", "text": "I am moving to Utrecht on 2026-10-15, can you change my address on the home policy?", "category": "policy_change", "urgency": "low"}
+{"id": "e04", "text": "You charged me twice this month, EUR 84,50 was debited on the 1st and again on the 3rd. Please refund the second payment.", "category": "billing", "urgency": "low"}
+{"id": "e05", "text": "I sent photos of the damage three weeks ago and nobody has responded. This is unacceptable, I want to escalate this complaint.", "category": "complaint", "urgency": "medium"}
+{"id": "e06", "text": "Hello, what documents do I need to add my daughter to my car insurance? She just got her licence.", "category": "policy_change", "urgency": "low"}
+{"id": "e07", "text": "Another driver hit my car in the supermarket car park yesterday, 12/09/2026. We filled in the accident form. What happens next?", "category": "claim", "urgency": "medium"}
+{"id": "e08", "text": "My direct debit failed because I changed banks. When will you try again and is there a late fee?", "category": "billing", "urgency": "low"}
+{"id": "e09", "text": "I cancelled my policy TR-2299001 two weeks ago and I have not received the refund yet.", "category": "billing", "urgency": "low"}
+{"id": "e10", "text": "We are abroad and my husband is in hospital after a scooter accident, what should we do?", "category": "claim", "urgency": "high"}
+{"id": "e11", "text": "Is gradual damage from an old pipe covered under the buildings policy?", "category": "general_question", "urgency": "low"}
+{"id": "e12", "text": "Hi", "category": "general_question", "urgency": "low"}
+{"id": "e13", "text": "I would like to increase my contents cover from 25.000 to 40.000 euros.", "category": "policy_change", "urgency": "low"}
+{"id": "e14", "text": "Terrible service. I have called four times about my claim and every time I am told someone will call back.", "category": "complaint", "urgency": "medium"}
+{"id": "e15", "text": "The invoice for September shows a premium of EUR 61 but my policy schedule says EUR 55. Why the difference?", "category": "billing", "urgency": "low"}
+{"id": "e16", "text": "Storm damage to the roof, tiles came off and rain is coming in. Emergency repair was 430 euros, can I claim it?", "category": "claim", "urgency": "high"}
+{"id": "e17", "text": "Can I cancel my travel insurance before the renewal date?", "category": "policy_change", "urgency": "low"}
+{"id": "e18", "text": "Do you cover e-bikes under the home contents policy?", "category": "general_question", "urgency": "low"}
+{"id": "e19", "text": "My bike was stolen from the station, it was locked. Policy CT-0099882, bought for 1.250 euros in March.", "category": "claim", "urgency": "medium"}
+{"id": "e20", "text": "I want to complain about the amount you paid for my water damage claim, it does not cover the repair.", "category": "complaint", "urgency": "medium"}
+{"id": "e21", "text": "Which garages can I use for repairs after an accident?", "category": "general_question", "urgency": "low"}
+{"id": "e22", "text": "please update my phone number and e-mail on all my policies", "category": "policy_change", "urgency": "low"}
+{"id": "e23", "text": "How long does a complaint take to be answered and what if I disagree with the answer?", "category": "general_question", "urgency": "low"}
+{"id": "e24", "text": "fire in the kitchen this morning, everyone is fine but the kitchen is destroyed, what now", "category": "claim", "urgency": "high"}
